@@ -1,0 +1,5 @@
+# configs/model/sts.yaml
+
+_target_: src.models.sts_module.STSModel
+plm_name: "snunlp/KR-ELECTRA-discriminator" # Same as in data config
+lr: 2e-5

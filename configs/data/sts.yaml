@@ -1,0 +1,9 @@
+# configs/data/sts.yaml
+
+_target_: src.data.sts_datamodule.STSDataModule
+plm_name: "snunlp/KR-ELECTRA-discriminator" # Replace with your model
+train_path: "data/train.csv"
+val_path: "data/val.csv"
+test_path: "data/test.csv"
+batch_size: 16
+max_length: 128
